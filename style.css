@@ -20,16 +20,3 @@ footer{
     background-color: darkblue;
     text-align: center;
 }
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: aqua;
-    
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}

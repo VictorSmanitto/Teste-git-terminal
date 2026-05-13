@@ -7,14 +7,14 @@
 
     <title>PADARIA DO Pé</title>
 
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     
     <h1> TEMOS PÂO DE MONTÂO</h1>
     <p>pão bom, quente, delicioso e cremoso</p>
 
-    <nav class="navbar">
+    <nav class="navbar" id="menu">
         <div class="container">
             <div>
                 <h3><a href="#menu">Menu</a>
@@ -24,22 +24,37 @@
         </div>
     </nav>
 
-    <section class="cardapio">
+    <section id="cardapio">
         <div class="container">
-            <div class="card">
-                <img src="https://th.bing.com/th/id/OIP.h_DsWx-stQ0gFJhCSxQTbAHaEK?w=321&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Macarrão">
-                <h2>Macarrão</h2>
-                <p>Delicioso, precioso e barato</p>
-            </div>
-            <div class="card">
-                <img src="https://th.bing.com/th/id/OIP.FEAyLlOrEbzx8o1333QrCQHaHS?w=175&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Arroz e Feijão">
-                <h2>Arroz e Feijão</h2>
-                <p>Delicioso, precioso e medio</p>
-            </div>
-            <div class="card">
-                <img src="https://th.bing.com/th/id/OIP.Na_fsJkrmOsZU2TBY4sYxgHaEK?w=305&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Strogonof">
-                <h2>Strogonof</h2>
-                <p>Delicioso, precioso e carro</p>
+            <div class="row g-4">
+                <div class="col-md-10">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="https://th.bing.com/th/id/OIP.h_DsWx-stQ0gFJhCSxQTbAHaEK?w=321&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Macarrão">
+                            <h5 class="card-title">Macarrão</h5>
+                            <p class="card-text">Delicioso, precioso e barato</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="https://th.bing.com/th/id/OIP.FEAyLlOrEbzx8o1333QrCQHaHS?w=175&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Arroz e Feijão">
+                            <h5 class="card-title">Arroz e Feijão</h5>
+                            <p class="card-text">Delicioso, precioso e medio</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="https://th.bing.com/th/id/OIP.Na_fsJkrmOsZU2TBY4sYxgHaEK?w=305&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Strogonof">
+                            <h5 class="card-title">Strogonof</h5>
+                            <p class="card-text">Delicioso, precioso e carro</p>
+                        </div>
+                  </div>
+                </div>
             </div>
         </div>
     </section>
@@ -47,5 +62,7 @@
     <footer>
         <h3>Feito por Locelso00000 : © 2026</h3>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
