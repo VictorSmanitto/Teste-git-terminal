@@ -7,6 +7,12 @@ h1{
 h2{
     color: purple;
 }
+.card-text{
+    color: cyan;
+}
+.card-body{
+    background-color: grey;
+}
 nav{
     justify-content: center;
     align-items: center;

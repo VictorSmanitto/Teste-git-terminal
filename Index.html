@@ -3,53 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-
     <title>PADARIA DO Pé</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <h1> TEMOS PÂO DE MONTÂO</h1>
     <p>pão bom, quente, delicioso e cremoso</p>
 
-    <nav class="navbar" id="menu">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <div>
-                <h3><a href="#menu">Menu</a>
-                <a href="#cardapio">Cardapio</a>
-                <a href="sobre.html">Sobre</a></h3>
-            </div>
+          <a class="navbar-brand" href="index.html">🥖 Padaria do Pé</a>
+          <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#nav">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#cardapio">Cardapio</a></li>
+              <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
 
     <section id="cardapio">
         <div class="container">
             <div class="row g-4">
-                <div class="col-md-10">
+                <div class="col-md-4">
                     <div class="card h-100">
                         <div class="card-body">
-                            <img src="https://th.bing.com/th/id/OIP.h_DsWx-stQ0gFJhCSxQTbAHaEK?w=321&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Macarrão">
+                            <img src="https://th.bing.com/th/id/OIP.h_DsWx-stQ0gFJhCSxQTbAHaEK?w=321&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" class="card-img-top" alt="Macarrão">
                             <h5 class="card-title">Macarrão</h5>
                             <p class="card-text">Delicioso, precioso e barato</p>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-md-10">
+                <div class="col-md-4">
                     <div class="card h-100">
                         <div class="card-body">
-                            <img src="https://th.bing.com/th/id/OIP.FEAyLlOrEbzx8o1333QrCQHaHS?w=175&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Arroz e Feijão">
+                            <img src="https://th.bing.com/th/id/OIP.FEAyLlOrEbzx8o1333QrCQHaHS?w=175&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" class="card-img-top" alt="Arroz e Feijão">
                             <h5 class="card-title">Arroz e Feijão</h5>
                             <p class="card-text">Delicioso, precioso e medio</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-4">
                     <div class="card h-100">
                         <div class="card-body">
-                            <img src="https://th.bing.com/th/id/OIP.Na_fsJkrmOsZU2TBY4sYxgHaEK?w=305&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Strogonof">
+                            <img src="https://th.bing.com/th/id/OIP.Na_fsJkrmOsZU2TBY4sYxgHaEK?w=305&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" class="card-img-top" alt="Strogonof">
                             <h5 class="card-title">Strogonof</h5>
                             <p class="card-text">Delicioso, precioso e carro</p>
                         </div>
@@ -59,7 +66,49 @@
         </div>
     </section>
 
-    <footer>
+
+    <section id="contato">
+        <div class="container mt-4">
+            <div class="row g-4">
+                <div class="col-md-10">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Contato 1</h5>
+                            <p class="card-text">
+                                Telefone: 51329571
+                                E-mail: contato123@gmail.com
+                            </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Contato 1</h5>
+                            <p class="card-text">
+                                Telefone: 51329571
+                                E-mail: contato123@gmail.com
+                            </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Contato 1</h5>
+                            <p class="card-text">
+                                Telefone: 51329571
+                                E-mail: contato123@gmail.com
+                            </p>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mb-4">
         <h3>Feito por Locelso00000 : © 2026</h3>
     </footer>
 
