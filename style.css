@@ -1,5 +1,6 @@
 body{
     background-color: darkgray;
+    font-family: 'Poppins', sans-serif;
 }
 h1{
     color: red;
@@ -25,4 +26,5 @@ footer{
     color: lightcoral;
     background-color: darkblue;
     text-align: center;
+    margin-top: auto;
 }
