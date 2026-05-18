@@ -1,0 +1,53 @@
+body{
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+.container{
+    width: 97%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+nav{
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    background-color: darkgreen;
+    color: orange;
+}
+
+
+footer{
+    background-color: darkolivegreen;
+    border-radius: 10px;
+    text-align: right;
+}
+
+h3{
+    color:blue
+}
+
+h2{
+    color: darkblue;
+}
+h1{
+    color: lightblue;
+}
+
+#hero{
+    text-align: center;
+    background-color: gray;
+    border-radius: 15px;
+}
+button{
+    background-color: darkgray;
+    color: cyan;
+}
+a{
+    color: greenyellow;
+}
