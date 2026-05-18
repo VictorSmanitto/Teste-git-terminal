@@ -8,6 +8,7 @@ body{
 }
 
 nav{
+    display: flex;
     border-radius: 10px;
     background-color: darkgreen;
     padding: 20px;
@@ -18,7 +19,7 @@ nav .container{
     justify-content: space-between;
     align-items: center;
 }
-nav .ul{
+nav ul{
     display: flex;
     list-style: none;
     gap: 20px;
@@ -92,7 +93,7 @@ img{
     gap: 20px;
 }
 
-#formulario .container{
+#formulario form{
     display: flex;
     flex-direction: column;
     gap: 15px;
