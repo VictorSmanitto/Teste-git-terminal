@@ -3,29 +3,33 @@ body{
     font-family: sans-serif;
 }
 .container{
-    width: 97%;
+    width: 90%;
     margin: auto;
 }
 
-
-
-
-
-
-
 nav{
-    border-radius: 15px;
-    justify-content: center;
-    text-align: center;
+    border-radius: 10px;
     background-color: darkgreen;
-    color: orange;
+    padding: 20px;
 }
 
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
 
 footer{
     background-color: darkolivegreen;
     border-radius: 10px;
     text-align: right;
+    font: bold;
+    margin-top: 50px;
 }
 
 h3{
@@ -39,15 +43,74 @@ h1{
     color: lightblue;
 }
 
+a{
+    text-decoration: none;
+    color: greenyellow;
+}
+
 #hero{
     text-align: center;
     background-color: gray;
+    padding: 80px;
     border-radius: 15px;
+    margin-top: 40px;
 }
+
 button{
     background-color: darkgray;
     color: cyan;
+    padding: 10px;
 }
-a{
-    color: greenyellow;
+
+#sobre .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+    gap: 15px;
+}
+
+img{
+    width: 100%;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 20px;
+}
+
+#destaque .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#cursos .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#formulario .container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+@media(max-width: 768px){
+
+    nav .container{
+        flex-direction: column;
+    }
+
+    #destaque .container{
+        grid-template-columns: 1fr;
+    }
+
+    #sobre .container{
+        grid-template-columns: 1fr;
+    }
+
 }
