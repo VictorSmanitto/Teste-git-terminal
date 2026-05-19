@@ -7,6 +7,38 @@ body{
     margin: auto;
 }
 
+h3{
+    color:blue
+}
+
+h2{
+    color: darkblue;
+}
+h1{
+    color: lightblue;
+}
+a{
+    text-decoration: none;
+    color: greenyellow;
+}
+img{
+    width: 100%;
+}
+button{
+    background-color: darkgray;
+    color: cyan;
+    padding: 10px;
+    border-radius: 15px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 20px;
+}
+
+
+
 nav{
     display: flex;
     border-radius: 10px;
@@ -25,6 +57,7 @@ nav ul{
     gap: 20px;
 }
 
+
 footer{
     background-color: darkolivegreen;
     border-radius: 10px;
@@ -33,52 +66,23 @@ footer{
     margin-top: 50px;
 }
 
-h3{
-    color:blue
-}
 
-h2{
-    color: darkblue;
-}
-h1{
-    color: lightblue;
-}
-
-a{
-    text-decoration: none;
-    color: greenyellow;
-}
 
 #hero{
     text-align: center;
     background-color: gray;
-    padding: 80px;
+    padding: 50px;
     border-radius: 15px;
     margin-top: 40px;
-}
-
-button{
-    background-color: darkgray;
-    color: cyan;
-    padding: 10px;
 }
 
 #sobre .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 40px;
-    gap: 15px;
-}
-
-img{
-    width: 100%;
-}
-
-.card{
     background-color: white;
-    padding: 20px;
     border-radius: 15px;
-    gap: 20px;
+    padding: 20px;
+    gap: 15px;
 }
 
 #destaque .container{
